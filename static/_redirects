@@ -1,0 +1,5 @@
+# 重定向 www 到非 www
+https://www.dev.806.group/* https://dev.806.group/:splat 301
+
+# 强制 HTTPS
+http://dev.806.group/* https://dev.806.group/:splat 301

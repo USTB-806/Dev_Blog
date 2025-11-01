@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://dev.806.group/'
+languageCode = 'zh-cn'
+title = '806-DEV Blog'
 theme = 'DoIt'

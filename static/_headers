@@ -1,0 +1,10 @@
+# 安全头部
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  
+# 缓存静态资源
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
