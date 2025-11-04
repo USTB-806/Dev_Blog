@@ -84,8 +84,11 @@ draft: false
 ## Frontend Frameworks/前端框架
 
 - React
+    [React](https://zh-hans.react.dev/)
 - Vue.js
+    [Vue.js](https://cn.vuejs.org/)
 - Angular
+    [Angular](https://angular.cn/)
 
 ## Web Components/Web 组件化编程
 
