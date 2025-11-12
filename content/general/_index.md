@@ -3,7 +3,7 @@ title: "通用技术"
 date: 2025-11-03
 draft: false
 ---
-
+![beautiful_pic](/images/general.png)
 通用技术是开发者在开发过程中默认已经掌握的知识和工具。
 
 ## IDE
@@ -110,3 +110,4 @@ draft: false
 - [ ] 我知道如何利用 reflog 命令找回某个丢失的提交。
 
 > 本篇文档由 [Harry Huang](https://github.com/isHarryh) 编写。
+> 封面图片来自 [Kevin](https://kevin56348.github.io/blog/)

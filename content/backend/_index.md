@@ -3,7 +3,7 @@ title: "后端开发"
 date: 2025-11-12
 draft: false
 ---
-
+![beautiful_pic](/images/backend.jpg)
 后端开发是构建现代Web应用的核心技术，从基础的编程语言到复杂的API设计和数据库管理，本路径将带你系统掌握后端开发的技能。
 
 **学习建议**：
@@ -388,5 +388,6 @@ draft: false
 
 ---
 
->  本篇文档由 [Fridemn](https://github.com/Fridemn) 编写
+>  本篇文档由 [Fridemn](https://github.com/Fridemn) 编写。
+> 封面图片来自 [Kevin](https://kevin56348.github.io/blog/)
 >  ＼(^▽^＠)ノ 

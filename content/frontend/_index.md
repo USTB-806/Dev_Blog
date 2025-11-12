@@ -3,7 +3,7 @@ title: "前端开发"
 date: 2024-11-01
 draft: false
 ---
-
+![beautiful_pic](/images/frontend.png)
 前端开发是构建现代Web应用的核心技术，从基础的HTML/CSS到复杂的前端框架，本路径将带你系统掌握前端开发的全部技能。
 
 参考资料： 
@@ -148,5 +148,6 @@ draft: false
 
 ---
 
->  本篇文档由 [Fridemn](https://github.com/Fridemn) 编写
+>  本篇文档由 [Fridemn](https://github.com/Fridemn) 编写。
+> 封面图片来自 [Kevin](https://kevin56348.github.io/blog/)
 > ＼(*T▽T*)／ 

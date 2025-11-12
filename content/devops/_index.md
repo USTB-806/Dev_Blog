@@ -3,7 +3,7 @@ title: "开发运维"
 date: 2025-11-12
 draft: false
 ---
-
+![beautiful_pic](/images/devops.jpg)
 运行维护是开发者在部署、维护和扩展应用程序时需要掌握的知识和工具。
 
 ## Docker
@@ -364,4 +364,5 @@ Kubernetes 使用 Pod、Service、Deployment 等概念来管理容器。常见�
 
 
 > 本篇文档由 [Fridemn](https://github.com/Fridemn) 编写。
+> 封面图片来自 [Kevin](https://kevin56348.github.io/blog/)
 > (●'◡'●)
