@@ -1,6 +1,6 @@
 ---
 title: "806-DEV 导航"
-date: 2024-11-01
+date: 2025-11-12
 draft: false
 ---
 ![beautiful_pic](/images/home.jpg)
@@ -56,10 +56,8 @@ draft: false
 
 [查看详细内容 →](/gui/)
 
-### Maintaining/系统维护
+### DevOps/开发运维
 服务器部署、运维监控和系统管理的实用指南。
-
-
 
 **学习路径：**
 - Linux系统管理
@@ -67,6 +65,8 @@ draft: false
 - CI/CD流水线
 - 监控与日志管理
 - 自动化运维
+
+[查看详细内容 →](/devops/)
 
 ### Embedded/嵌入式开发
 
