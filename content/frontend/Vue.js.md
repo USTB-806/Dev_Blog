@@ -108,3 +108,24 @@ draft: false
             - ```
                 <h1 v-if="awesome">Vue is awesome!</h1>
                 <h1 v-else>Oh no 😢</h1>
+- 列表渲染
+    - 可以使用v-for指令来渲染一个基于原数组的列表
+        - 语法
+            - ```
+                <ul>
+                <li v-for="todo in todos" :key="todo.id">
+                    {{ todo.text }}
+                </li>
+                </ul>
+            - todo是一个局部变量，表示当时正在迭代的数组元素，只能在v-for绑定的元素上或者其内部访问  
+            - 还给每个todo设置了id，作为特殊的key属性绑定到每个<li>，key使Vue可以精准的移动到每个<li>
+        - 更新列表的两种方式
+            - 在源数组上调用变更方式
+                - ```this.todos.push(newTodo)```
+            - 使用新的数组替代原数组
+                - ```this.todos = this.todos.filter(/* ... */)```
+- 计算属性
+    - 可以使用computed选项声明一个响应式的属性，它的值由其他属性计算而来
+        - 语法
+            - ```
+              
