@@ -98,3 +98,98 @@ draft: false
                 - print("XXX:{a}，XXX:{b}".format(a=100,b="A"))
                 - print(f"XXX:{100}")
                 - print(f"{1/3:.2f}")
+- 列表和元组
+    - 列表（list）
+        - 表示列表
+            - a = [1,2,3,4]
+            - a = list("abcd")
+            - a = list(range[10])
+            - a = [1,2,3.'a','b']
+        - 列表函数
+            -  a.append(1) —— 把1添加到列表最后
+            -  a.remove(1) —— 把在列表中找到的第一个1删除
+            -  b = a.pop() —— 把列表最后一个元素删除并返回给b
+            -  a.pop(0) —— 把列表第0个位置的元素删除
+            -  a.extend([1,2,3.4]) —— 把列表[1,2,3,4]添加到a列表最后
+            -  a.reverse() —— 把列表反转
+            -  a.insert(0.1) —— 把1插入列表的第0个位置
+            -  len(a) —— a列表的长度
+            -  a.sort —— a列表从小到大排序
+            -  a.sort(reverse = True) —— a列表从大到小排序
+            -  a.clear —— 清空列表
+            -  a.count(1) —— 列表中1出现了几次 
+            -  b = a.copy()或b = a.[:]
+            -  min(a)
+            -  max(a)
+            -  a = None —— 把a设为空
+    - 元组（tuple）
+        - 表示元组
+            - a = (1,2,3)
+            - 元组可以理解为只读的列表
+            - c = tuple(b) —— 把列表b转换为元组
+- 推导式
+    - 简化代码
+    - 一个可迭代对象生成另一个相关联可迭代对象
+    - list(range(5))
+    - list(str(i) for i in a)
+        - list内部的内容是建立了生成器对象
+        - 简写：[str(i) for i in a]
+    - tuple(str(i) for i in a)
+    - [str(i) for i in a if i > 1]
+    - [i for i in a for j in range(3)]
+- 集合（set）
+    - 集合表示
+        - a = {1,2,3,1} —— {1,2,3}
+        - set() —— 空集合
+        - a = set([1,2,3,1]) —— {1,2,3}
+    - 集合函数
+        - a.add(1) —— 把1添加到集合
+        - a.remove(2) —— 把2从集合移除（若2不存在会报错）
+        - a.discard(2) —— 把2从集合移除（若2不存在不会报错）
+        - 判断：if 1 in a
+    - 集合运算
+        - a.intersection(b) —— a与b的交集
+            - a & b
+        - a.union(b) —— a与b的并集
+            - a | b
+        - a.difference(b) —— a与b的差集（a有b没有）
+            - a - b
+        - a.symmetric(b) —— a与b的对称差集（a，b独有）
+            - a ^ b
+- 字典（dict）
+    - 语法
+        - d = {'key' : value} —— key：键 value：值
+        - d['a'] = 0 —— 设置字典中的a元素
+        - print(d['a']) —— 获取字典中的元素
+        - del d['a'] —— 删除字典中的a
+        - d.get('b',0) —— 尝试获取d中b的值，如果没有就返回默认值0
+        - 'c' in d —— 判断d中是否有键
+        - for key in a.keys() —— 遍历a中的所有键
+        - for key,value in a.items() —— 遍历a中的所有键值对
+            - 后出现的键值会把之前的覆盖
+        - a.update(b) —— 用b更新a
+        - d = {key : key * key for key in range(100)}
+- 异常处理
+    - ```
+        try:
+            name = input("请输入姓名")
+            print("当前的年龄是"，age_data[name])
+            new_age = int(input("请输入年龄："))
+
+            if new_age <=0:
+                raise ValuError("age must be positive")
+            age_data[name] = new_age
+        except VauleError as e:
+            print("输入不合法")
+            print("异常原因是",e)
+        except KeyError as e:
+            print("人名不存在")
+            print("异常原因是",e)
+        else：
+            print("无事发生")
+        finally:
+            print("运行完成")
+    - 异常类型
+        - 可使用pass进行占位
+            - if XX:pass
+            - except except VauleError as e:pass
